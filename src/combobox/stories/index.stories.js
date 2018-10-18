@@ -51,7 +51,7 @@ storiesOf('combobox', module).add('Combobox', () => (
     <Box marginBottom={16}>
       <Heading>Default value</Heading>
       <Combobox
-        defaultSelectedItem="Yoda"
+        initialSelectedItem="Yoda"
         items={items}
         onChange={handleChange}
       />
@@ -59,7 +59,7 @@ storiesOf('combobox', module).add('Combobox', () => (
     <Box marginBottom={16}>
       <Heading>Custom item objects</Heading>
       <Combobox
-        defaultSelectedItem={customItems[0]}
+        initialSelectedItem={customItems[0]}
         items={customItems}
         itemToString={i => i.label}
         onChange={handleChange}
