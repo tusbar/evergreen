@@ -27,7 +27,7 @@ const TemplateWrapper = ({ children }) => {
           property="twitter:image"
           content={absolutePath('/twitter-og.png')}
         />
-        <link rel="canonical" href="TODO/here" />
+        <link rel="canonical" href={absolutePath()} />
       </Helmet>
       {children}
     </React.Fragment>

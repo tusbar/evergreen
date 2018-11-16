@@ -15,7 +15,7 @@
   "repository": "segmentio/evergreen",
   "license": "MIT",
   "main": "commonjs/index.js",
-  "module": "esm/index.js",
+  "module": "index.js",
   "files": [
     "commonjs",
     "esm"
