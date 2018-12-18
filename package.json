@@ -1,6 +1,6 @@
 {
   "name": "evergreen-ui",
-  "version": "4.0.0",
+  "version": "4.8.0",
   "description": "🌲 React UI Kit by Segment 🌲",
   "contributors": [
     "Jeroen Ransijn (https://jssr.design/)",
@@ -177,7 +177,7 @@
   "size-limit": [
     {
       "path": "commonjs/index.js",
-      "limit": "200 KB"
+      "limit": "204 KB"
     }
   ],
   "husky": {
