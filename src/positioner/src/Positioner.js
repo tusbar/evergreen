@@ -230,7 +230,6 @@ export default class Positioner extends PureComponent {
               {target({ getRef: this.getTargetRef, isShown })}
 
               <Transition
-                appear
                 in={isShown}
                 appear // Show the children if isShown is true on initial render
                 timeout={animationDuration}
